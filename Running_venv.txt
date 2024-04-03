@@ -1,0 +1,4 @@
+run "Set-ExecutionPolicy Unrestricted -Scope Process" to allow activation
+run "venv\Scripts\activate" to activatepip 
+run "python main.py" to start server locally on port 8080
+run "npm run dev" to start client side on http://localhost:5173/
